@@ -1,11 +1,11 @@
 import subprocess
 import sys
 
-num_items = [100000, 200000, 500000, 750000, 1000000]
+num_items = [50000, 100000, 150000,200000, 250000]
 num_clusters = [50, 100, 200, 350, 500]
 weights = [(50, 100000), (50, 500)]
-values = (2**12, 2**22)
-noises = [2**6, 2**12]
+values = (2**10, 2**20)
+noises = [2**12]
 balanced_clusters = [0, 1]
 clustered = 1
 

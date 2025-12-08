@@ -121,7 +121,7 @@ def var_idx(i, j):
     return i * m + j + 1
 
 # generate knapsack problem file
-print(f"* Name: knapsack_clustered_n{n}_c{cap_total}_m{m}_k{num_clusters}_w[{weight_min},{weight_max}]_v[{value_min},{value_max}]_noise{value_noise_range}_balanced{balanced_clusters}")
+print(f"* Name: knapsack_clustered_n{n}_c{cap_total}_m{m}_k{num_clusters}_w[{weight_min}_{weight_max}]_v[{value_min}_{value_max}]_noise{value_noise_range}_balanced{balanced_clusters}")
 print(f"* Variables: {n * m}")
 print(f"* Constraints: {1}")
 print("min: ", end = "")
