@@ -1,7 +1,7 @@
 # Objective Coefficient Rounding and Almost Symmetries in Binary Programs
 _Authors: Dominik Kuzinowicz, Paweł Lichocki, [Gioni Mexi](https://gionimexi.com), [Marc E. Pfetsch](https://www2.mathematik.tu-darmstadt.de/~pfetsch/index.en.html), [Sebastian Pokutta](https://www.pokutta.com), [Max Zimmer](https://maxzimmer.org)_
 
-This repository contains experimental result data, instance generation scripts and instances from the paper ["Objective Coefficient Rounding and Almost Symmetries in Binary Programs"](https://arxiv.org/abs/2512.10507). 
+This repository contains code to run experiments and experimental result data, instance generation scripts and instances from the paper ["Objective Coefficient Rounding and Almost Symmetries in Binary Programs"](https://arxiv.org/abs/2512.10507). 
 
 ## Structure and Usage
 
