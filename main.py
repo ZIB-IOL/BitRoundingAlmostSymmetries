@@ -12,11 +12,11 @@ from utils import Utils
 
 debug = '--debug' in sys.argv
 defaults = dict(
-    seed=0,                                         # Seed for randomness
-    problem=0,                                      # problem file - using integer mapping from opb_problem_dict
-    mode="scip",                        # "scip", "scip"
+    problem=0,                                      # problem file - using integer mapping from l_bit_dict
+    mode="scip",                                    # "scip", "ortools_cp", "scip_no_symmetry", "cp_no_symmetry"
     bit_num=0,                                      # number of bits to consider. 0 means all. 
-    solving_time=60,                                # max solving time in seconds - reduced for testing
+    solving_time=60,                                # max solving time in seconds
+    seed=0,                                         # Seed for randomness
 ) 
 
 if not debug:
