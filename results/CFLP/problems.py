@@ -1,5 +1,5 @@
 problems = {
-    200: "CFLP/facLoc_1000_100_10_5.opb.gz",
+    200: "facLoc_1000_100_10_5.opb.gz",
     201: "facLoc_1000_100_16_3.opb.gz",
     202: "facLoc_1000_100_16_8.opb.gz",
     203: "facLoc_1000_100_19_1.opb.gz",
